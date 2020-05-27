@@ -1,0 +1,118 @@
+.header{
+    background-image: url(../img/header1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    height: 500px;
+
+}
+.text-caption{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.header h1{
+    font-size: 5rem;
+    font-weight: 700;
+}
+.header h3{
+    font-size: 3rem;
+    font-family: 'Kaushan Script', cursive;
+}
+.header .white{
+    background-color: white;
+}
+
+.section-subtitle{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 1.5rem;
+}
+.section-title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.875rem;
+}
+.header-style{
+    width: 70px;
+    height: 5px;
+    background-color: #f38181;
+}
+.img-container{
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+.img-container:hover .img-caption{
+    opacity: 1;
+    visibility: visible;
+}
+i:hover{
+    color: grey;
+}
+.img-caption{
+    background: linear-gradient(to bottom, rgba(228,129,125,0.7) 0%, rgba(255,175,75,0.7) 100%);
+    color: white;
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    
+}
+.img-caption p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+}
+.numbers{
+    background-color: #b5eae0;
+}
+.numbers .number{
+    border-left: 1px solid white;
+    color: white;
+    font-weight: 700;
+}
+.numbers .number h3{
+    font-size: 4rem;
+}
+.right{
+    border-right: 1px solid white;
+}
+.service {
+    padding: 70px 0 30px;
+    border-bottom: 1px solid lightgrey;
+}
+.service .icon{
+    float: left;
+    padding-right: 15px;
+}
+.service h6{
+    font-size: 1.2rem;
+    font-weight: normal;
+    color: darkslategrey;
+}
+
+.design {
+    background-image: url(../img/nature.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    height: 700px;
+
+}
+.design img{
+    padding-top: 50px;
+    height: 560px;
+    position: absolute;
+    margin-left: 0;
+    left: 30%;
+}
+.design .mobimg img{
+    margin-left: 200px;
+    margin-top: 80px;
+    padding-top: 70px;
+}
+
